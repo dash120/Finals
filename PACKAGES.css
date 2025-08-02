@@ -1,0 +1,183 @@
+body{
+   background-color: #33333c; 
+   margin: 0%;
+  
+
+}
+
+.BOX1{
+    color: #33333c ;
+    background: #d9d9d9;
+    opacity: 37%;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+.ipac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: istok;
+}
+.ipac a{
+    text-decoration: none;
+    color: #33333c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: istok;
+}
+
+.Notice{
+    color: #FFFFFF;
+    font-family: Istok Web;
+    padding: 20px 0 20px 30px;
+    font-size: 22px;
+}
+
+.PACKAGES {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+.first_package {
+    color: #FFFFFF;
+    font-family: Istok Web;
+}
+
+.first_package img {
+    width: 523px;
+    height: 446px;
+     position: relative;
+}
+.sec_package{
+     color: #FFFFFF;
+    font-family: Istok Web;
+}
+.sec_package img {
+     width: 523px;
+    height: 446px;
+}
+
+.third_package{
+    color: #FFFFFF;
+    font-family: Istok Web;
+}
+
+.third_package img {
+      width: 523px;
+     height: 446px;
+     position: relative;
+     bottom: 7px;
+}
+
+.fourth_package {
+    color: #FFFFFF;
+    font-family: Istok Web;
+}
+
+.fourth_package img {
+     width: 523px;
+    height: 446px;
+}
+
+.Avail{
+     display: flex;
+    justify-content: center;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    border-color: white;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.footer{
+    background: #d9d9d9;
+    flex-wrap: wrap;
+    height: 100px;
+    line-height: 25px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.footer_text1 H1 {
+ color: #747C83;
+ font-size: 36px;
+}
+.footer_text1 p {
+    color: #4D3C3D;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer_text2{
+    color: black;
+    font-size: 20px;
+    font-family: istok web;
+}
+
+@media (max-width: 600px) {
+    .BOX1 {
+        justify-content: flex-start;
+    }
+    .ipac{
+        margin: 0;
+    }
+    .ipac a{
+        margin: 0;
+        font-size: 20px;
+    }
+    .Notice {
+        font-size: 15px;
+        padding: 5px;
+    }
+    .PACKAGES {
+        flex-direction: column;
+        align-items: center;
+    }
+    .first_package img,
+    .sec_package img,
+    .third_package img,
+    .fourth_package img {
+        width: 100%;
+        height: auto;
+    }
+    .Avail {
+        width: 60px;
+        height: 25px;
+        font-size: 15px;
+    }
+    .footer {
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+        line-height: 5px;
+    }
+    .footer_text1 h1 {
+        font-size: 24px;
+    }
+    .footer_text1 p {
+        font-size: 12px;
+    }
+    .footer_text2 {
+        font-size: 12px;
+    }
+    
+}

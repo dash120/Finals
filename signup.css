@@ -1,0 +1,159 @@
+body{
+    background-color: #33333c;
+    padding: 0;
+    margin: 0;
+}
+
+.box2{
+    background: #D9D9D9;
+    height: 100px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: flex-start;
+}.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.signup img {
+    position: relative;
+    top: 12px;
+}
+.signup > a {
+    text-decoration: none;
+    font-family: katibeh;
+    font-weight: 400;
+    color: #747C83;  
+    font-size: 40px;
+    height: auto;
+    position: relative;
+    bottom: 5px;
+}
+
+.wallpaper {
+  position: relative;
+  width: 100%;
+  height: 1000px; /* example na container height */
+  overflow: hidden;
+}
+
+
+
+.wallpaper img {
+     width: 100%;
+  height: 100%;
+  object-fit: cover; /* punuin ang box pero hindi nade-distort */
+  display: block;
+  transition: transform .5s ease;
+    opacity: 70%;
+    filter: brightness(100%);
+}
+
+.wallpaper_text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    top: 50px;
+    color: white;
+    z-index: 1;
+    font-size: 32px;
+    text-shadow: #33333c 0px 5px 20px;
+
+}
+
+
+.small_space {
+    height: 5px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.wallpaper_text h1 {
+    font-family: Istok web;
+    font-size: 30px;
+}
+
+.box {
+    
+    padding: 20px;
+}
+.box span{
+    font-size: 20px;
+    font-family: istok web;
+    font-weight: bold;
+    color: #ffffff;
+}
+.input {
+    background-color: #ffffff;
+    width: 425px;
+    height: 66px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    box-shadow: #00000037 0px 0px 20px;
+}
+.enter{
+    color: white;
+    background-color: #33333c;
+    width: 214px;
+    height: 71px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    box-shadow: #00000037 0px 0px 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  
+    .signup > a {
+        font-size: 30px;
+    }
+    .wallpaper_text h1 {
+    font-family: Istok web;
+    font-size: 25px;
+}
+    .box span {
+        font-size: 15px;
+    }
+    .input {
+        width: 300px;
+        height: 50px;
+    }
+    .enter {
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .wallpaper {
+  position: relative;
+  width: 100%;
+  height: 1000px; /* example na container height */
+  overflow: hidden;
+}
+
+
+
+.wallpaper img {
+     width: 100%;
+  height: 100%;
+  object-fit: cover; /* punuin ang box pero hindi nade-distort */
+  display: block;
+  transition: transform .5s ease;
+    opacity: 70%;
+    filter: brightness(100%);
+}
+
+
+}
